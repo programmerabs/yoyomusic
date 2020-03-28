@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background-image: url("assets/img/concert-768722_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  font-family: lato;
+}
+
+img {
+  width: 100%;
+}
+
+#wrap {
+  width: 1100px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+/*Header style*/
+.top-header {
+  width: 100%;
+  overflow: hidden;
+  padding: 15px;
+}
+
+.top-header .logo-area {
+  width: 20%;
+  float: left;
+}
+
+.top-header .logo-area img {
+  width: 80%;
+}
+
+.top-header .title-area {
+  width: 80%;
+  float: left;
+  text-align: left;
+}
+
+.top-header .title-area .title {
+  font-size: 32px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.top-header .title-area .title span {
+}
+
+.top-header .title-area .subtitle {
+  font-size: 22px;
+  letter-spacing: 7px;
+  margin-top: 10px;
+}
+
+.header-menu {
+  overflow: hidden;
+  background-color: #00cc6a;
+  display: flex;
+  justify-content: center;
+}
+
+.header-menu ul li {
+  float: left;
+}
+
+.header-menu ul li a {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-menu ul li a:hover {
+  color: #fff;
+  background-color: #b146c2;
+}
+
+/*Hero style*/
+
+#hero-area {
+  background-image: url("assets/img/audience-868074_1920.jpg");
+  min-height: 450px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#hero-area .content {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#hero-area .content h2 {
+  font-size: 45px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+#hero-area .content p {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 22px;
+  color: #fff;
+}
+
+#hero-area .hero-btn {
+  background-color: #fff;
+  color: #000;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#hero-area .hero-btn:hover {
+  background-color: #b146c2;
+  color: #fff;
+}
+
+/*main area style*/
+#main-area {
+  background-color: #efefef;
+  overflow: hidden;
+  padding: 20px;
+}
+
+#main-area .blog-area {
+  width: 73%;
+  float: left;
+}
+
+#main-area .blog-area .single-post {
+  background-color: #fff;
+  padding: 15px;
+}
+
+#main-area .blog-area .single-post .post-img {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+#main-area .blog-area .single-post .post-img img {
+  transition: transform 0.5s ease;
+}
+#main-area .blog-area .single-post:hover .post-img img {
+  transform: scale(1.5);
+}
+#main-area .blog-area .single-post .post-img .post-img-content {
+  position: absolute;
+  padding: 15px;
+  width: 100%;
+  bottom: 0;
+  background-color: #11111190;
+  color: #fff;
+}
+
+#main-area .blog-area .single-post .post-meta {
+  width: 100%;
+  float: left;
+  padding: 5px;
+}
+#main-area .blog-area .single-post .post-title {
+  padding: 5px;
+}
+#main-area .blog-area .single-post .post-title a {
+  color: #fff;
+  text-decoration: none;
+}
+#main-area .blog-area .single-post .post-title a:hover {
+  color: #00cc6a;
+}
+#main-area .blog-area .single-post .post-meta p {
+  float: left;
+  margin-left: 5px;
+}
+#main-area .blog-area .single-post .post-meta p a {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #00cc6a;
+  text-decoration: none;
+}
+#main-area .event-area {
+  width: 25%;
+  float: right;
+}
+
+#main-area .event-area .single-event {
+  background-color: #fff;
+  padding: 15px;
+}
+
+/*footer area style*/
+footer {
+  overflow: hidden;
+  background-color: #4c4a48;
+  padding: 35px;
+}
+
+footer .single-footer {
+  padding: 20px;
+  width: 33.33%;
+  float: left;
+  color: #fff;
+}
